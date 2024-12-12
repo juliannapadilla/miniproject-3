@@ -10,59 +10,74 @@
         <div class="top-header">
             <h1>Julianna's BookClub</h1>
             <div class="nav-container">
-               <a href="">About</a>
-               <a href="">Home</a>
-               <a href="">Top Picks</a>
-               <a href="">Recents</a>
-               <a href="">FAQs</a>
+               <a href="mailto:padij238@newschool.edu">Contact</a>
+               <a href="file:///Users/juliannapadilla/Desktop/miniproject-3/index.html">Home</a>
+               <a href="https://www.goodreads.com/user/show/152230441-julianna">GoodReads</a>
+               <a href="/Users/juliannapadilla/Desktop/miniproject-3/about.html">About</a>
+               <a href="file:///Users/juliannapadilla/Desktop/miniproject-3/recent-reads.html">Recent Reads</a>
             </div>
         </div>
-        <div class="homepage-content">
-            <div class=book1>
-                <img src="https://m.media-amazon.com/images/I/81EVFgsl3jL._UF1000,1000_QL80_.jpg">
-            </div>
-            <div class="book2">
-                <img src="https://m.media-amazon.com/images/I/61SZH1+PalL._AC_UF1000,1000_QL80_.jpg">
-            </div>
-            <div class="book3">
-                <img src="https://m.media-amazon.com/images/I/71kdiN5Y1YL._AC_UF1000,1000_QL80_.jpg">
+        <H2>  What I've been reading... </H2>
+        <div class="images-box">
+            <div class="images-container">
+                <img alt="book1" src="https://m.media-amazon.com/images/I/81EVFgsl3jL._UF1000,1000_QL80_.jpg">
+                <img alt="book2" src="https://m.media-amazon.com/images/I/81PJaEeHRML._AC_UF894,1000_QL80_.jpg">
+                <img alt="book3" src="https://m.media-amazon.com/images/I/71kdiN5Y1YL._AC_UF1000,1000_QL80_.jpg">
+                </div>
+
+        </div>  
+        <div class="ratings-box"></div>
+        <div class="ratings-container">
+            <p>★★★★</p>
+            <p>★★★★</p>
+            <p>★★★★★</p>
+        </div>
+        </div>
+        <div class="text-box">
+            <div class="text-container">
+            <p> This book is about</p>
+            <p> This book is about</p>
+            <p> This book is about</p>
             </div>
         </div>
-        <div class="book-titles">
-            <div class="book1-title">
-                <p>The Seven Year Slip</p>
-                <p>Ashley Poston</p>
-            </div> 
-            <div class="book2-title">
-                <p>Just Kids</p>
-                <p>Patti Smith</p>
-            </div>
-            <div class="book3-title">
-                <p>Beach Read</p>
-                <p>Emily Henry</p>
-            </div>
-        </div>
+        </main>
+        <footer>
+            <p> That's it!</p>
+          </footer>
         <style>
            main {
             background-color:#F6EEE4;
             background-size: cover;
+            width: 100%;
+            height: 100vh;
            } 
            .nav-container {
             background-color:#F6EEE4;
-            text-align: center;
             color: #8C7263;
             text-align: center;
             font-family: "Libre Baskerville";
-            font-size: 30px;
+            font-size: 20px;
             font-style: normal;
             line-height: 2;
+            border: 2px solid #8C7263;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+           }
+           .background {
+            width: 100vw;
+            min-height: 100vh;
+            background-color: #F6EEE4;
+           }
+           a {
+            color: #8C7263;
            }
            .top-header {
-            color: #8C7263;
+            color: #92B496;
             background-color:#F6EEE4;
             text-align: center;
             font-family: "Libre Baskerville";
-            font-size: 40px;
+            font-size: 30px;
             font-style: normal;
             font-weight: 700;
             line-height: 0;
@@ -74,26 +89,45 @@
              align-content: center;
              flex-flow: row;
             justify-content: space-evenly;
+            line-height: 2;
+            border: 5px solid #8C7263;
            }  
-           .homepage-content {
-            flex-flow: column;
-            justify-content: space-evenly;
+           .images-container {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-evenly; 
+              line-height: 2;
+            }
+           a:hover {
+            color: #F6EEE4;
            }
-           .book-titles {
-            color: #8C7263;
-            text-align: center;
-            font-family: "Libre Baskerville";
-            font-size: 20px;
-            font-style: normal;
-            line-height: normal;
+           .ratings-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly; 
             flex-flow: row;
-            justify-content: space-evenly;
+            font-size: 15px;
+            line-height: 1;
+            color: #92B496;
+            align-content: center;
            }
-           .book1, .book2, .book3 {
-            flex-flow: column;
-            justify-content: space-evenly;
+           H2 {
+            color: #92B496;
+            font-size: 30px;
+           }
+           .text-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly; 
+            flex-flow: row;
+            font-size: 20px;
+            line-height: 1;
+            color: #92B496;
+            align-content: center;
+           }
+           footer {
+            color: #8C7263
            }
         </style>
-        </main>
     </body>
 </html>
