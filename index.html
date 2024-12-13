@@ -22,23 +22,25 @@
          <div class="images-container">
             <img alt="book1" src="https://m.media-amazon.com/images/I/81EVFgsl3jL._UF1000,1000_QL80_.jpg">
             <p alt="book1">★★★★</p>
-            <p alt="book1">This book rating</p>
+            <p alt="book1">A combination of magic meets romance, </p>
+                <p>Poston knows how to write men yearning perfectly.</p>
          </div>
          <div class="images-container">
             <img alt="book2" src="https://m.media-amazon.com/images/I/81PJaEeHRML._AC_UF894,1000_QL80_.jpg"> 
             <p alt="book2stars">★★★★</p>
-            <p>This book rating</p>
+            <p>When a star-soccer player falls in love</p>
+            <p>with his enemy's sister, what happens when he finds out?</p>
+            <p>Huang writes angst, enemies to lovers, and rivalry the best.</p>
         </div>
         <div class="images-container">
             <img alt="book3" src="https://m.media-amazon.com/images/I/71kdiN5Y1YL._AC_UF1000,1000_QL80_.jpg">
             <p alt="book2stars">★★★★★</p>
-            <p>This book rating</p>
+            <p>I reread this book every year since it came out.</p>
+            <p>Henry takes us to a lakeside town where college rivals meet again</p>
+            <p>but this time they become each others' writing inspiration.</p>
         </div>
         </div>
         </main>
-        <footer>
-            <p> That's it!</p>
-          </footer>
         </body>
         <style>
             body {
@@ -112,7 +114,7 @@
            }
            p {
             color: #92B496;
-            font-size: 20px;
+            font-size: 15px;
             line-height: 1;
            }
            H2 {
@@ -122,6 +124,24 @@
            footer {
             color: #8C7263
            }
-
+           @media (max-width: 450px) {
+            .top-header {
+                font-size: 15px;
+            }
+            .nav-container {
+                font-size: 10px;
+            }
+            .images-box {
+              display: flex;
+              flex-direction: column;
+              width: 100;
+              justify-content: space-evenly; 
+              line-height: 2;
+            }
+            .images-container {
+                flex-direction: row;
+                text-align: center;
+           }
+        }
         </style>
 </html>
